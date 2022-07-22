@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/submit" method="post">
+      <input type="text" name="Email">
+      <input type="text" name="Query">
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
